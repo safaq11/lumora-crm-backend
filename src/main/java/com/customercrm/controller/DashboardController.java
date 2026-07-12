@@ -8,7 +8,7 @@ import com.customercrm.service.DashboardService;
 
 @RestController
 @RequestMapping("/api/dashboard")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class DashboardController {
 
     private final DashboardService dashboardService;

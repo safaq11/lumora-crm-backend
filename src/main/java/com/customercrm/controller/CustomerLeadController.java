@@ -15,7 +15,7 @@ import com.customercrm.enums.Priority;
 
 @RestController
 @RequestMapping("/api/customer-leads")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class CustomerLeadController {
 
     private final CustomerLeadService customerLeadService;

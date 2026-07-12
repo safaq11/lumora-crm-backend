@@ -10,7 +10,7 @@ import com.customercrm.service.NotesService;
 
 @RestController
 @RequestMapping("/api/notes")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class NotesController {
 
     private final NotesService notesService;

@@ -9,9 +9,7 @@ import com.customercrm.service.AuthService;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = {
-	        "http://localhost:4200",
-	        "http://localhost:4300"})
+@CrossOrigin(origins = {"*"})
 public class AuthController {
 
     private final AuthService authService;

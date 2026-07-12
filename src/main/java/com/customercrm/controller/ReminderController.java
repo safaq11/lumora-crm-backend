@@ -10,7 +10,7 @@ import com.customercrm.service.ReminderService;
 
 @RestController
 @RequestMapping("/api/reminders")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class ReminderController {
 
     private final ReminderService reminderService;
